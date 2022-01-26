@@ -1,0 +1,26 @@
+{
+  "name": "export-sass-to-json-plugin",
+  "version": "1.0.0",
+  "description": "Convert the exported sass to json",
+  "main": "dist/src/test.umd.js",
+  "module": "dist/src/test.es5.js",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duoWB/export-sass-to-json-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duoWB/export-sass-to-json-plugin/issues"
+  },
+  "homepage": "https://github.com/duoWB/export-sass-to-json-plugin#readme",
+  "devDependencies": {
+    "dart-sass": "^1.25.0",
+    "postcss": "^8.4.5",
+    "postcss-scss": "^4.0.3",
+    "rollup": "^2.66.1"
+  }
+}
